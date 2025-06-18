@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>𝑑𝑒𝑠𝑖𝑔𝑛 𝑠ℎ𝑜𝑝</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FFD700">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #000;
+      color: gold;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: radial-gradient(circle at center, #111 0%, #000 100%);
+      animation: glow 4s infinite alternate;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      text-shadow: 0 0 15px gold;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: gold;
+      color: #000;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #fff100;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature {
+      background: #111;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #222;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 10px #111; }
+      to { box-shadow: 0 0 25px gold; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>𝑑𝑒𝑠𝑖𝑔𝑛 𝑠ℎ𝑜𝑝</h1>
+    <p>Your creative Discord hub for designs, services, and inspiration!</p>
+    <a href="https://discord.gg/ZfAfQnSVtW" class="btn" target="_blank">Join Our Discord</a>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We are a design-focused Discord server offering logos, banners, server designs, and more. Join the shop to get access to talented creators and resources.</p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">🎨 Custom Designs</div>
+      <div class="feature">💬 Client Support</div>
+      <div class="feature">🛍️ Paid Services</div>
+      <div class="feature">🎁 Free Giveaways</div>
+    </div>
+  </section>
+
+  <section>
+    <a href="https://discord.gg/ZfAfQnSVtW" class="btn" target="_blank">Join Now</a>
+  </section>
+
+</body>
+</html>
